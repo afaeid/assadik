@@ -1,0 +1,11 @@
+@media(max-width: 480px){
+ .nav-links{
+   display: none;
+ }
+ .settings-icon{
+  display: none; 
+ }
+ .menu-icon{
+   display: inline-block
+ }
+}
