@@ -45,11 +45,14 @@ nav .logo a{
   font-size: 30px;
   font-family: Bhasa52;
 }
+.nav-links .nav-links-header{
+  display: none;
+}
 nav .nav-links li {
   display: inline-block;
   list-style: none;
   margin: 0 5px;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 20px
 }
 .menu-icon{
@@ -61,5 +64,6 @@ main{
   padding: 80px 15px 10px 15px;
 }
 main h1{
-  line-height: 32pt
+  font-size: 28px;
+  line-height: 28px
 }
