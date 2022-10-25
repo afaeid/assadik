@@ -31,11 +31,15 @@ a{
 nav{
   width: 100%;
   height: 70px;
+  background: var(--white-color);
   border-bottom: 1px solid var(--semi-white-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 5px 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 nav .logo a{
   font-size: 30px;
@@ -50,4 +54,9 @@ nav .nav-links li {
 }
 .menu-icon{
   display: none;
+}
+main{
+  width: 100%;
+  min-height: 100vh;
+  padding: 80px 15px 10px 15px;
 }
