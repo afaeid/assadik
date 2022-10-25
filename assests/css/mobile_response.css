@@ -1,7 +1,29 @@
 @media(max-width: 480px){
  .nav-links{
-   display: none;
+   /* display: none; */
+  /* display: flex;
+   align-items: center;
+   justify-content: space-between;*/
+   padding: 5px 15px;
+   position: fixed;
+   width: 100%;
+   min-height: 100vh;
+   background: var(--white-color);
+   top: 0;
+   left: -100%;
+   transition: left 0.7s 
  }
+.nav-links .nav-links-header{
+  border-bottom: 1px solid var(--semi-white-color);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .nav-links li{
+  display: block;
+  margin: 10px 0;
+}
  .settings-icon{
   display: none; 
  }

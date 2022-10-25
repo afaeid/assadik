@@ -9,12 +9,13 @@ a{
  text-decoration: none
 }
 .icon{  
+  cursor: pointer;
   padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: var(--icon-bg-color)
+  background: var(--icon-bg-color);
 }
 .icon:hover{
   background: var(--active-bg-color);
