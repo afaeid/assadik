@@ -6,3 +6,7 @@
   src: url('../fonts/Sutonny.ttf');
   font-family: Sutonny;
 }
+@font-face{
+  src: url('../fonts/TatsamBengali.otf');
+  font-family: Tatsam;
+}
