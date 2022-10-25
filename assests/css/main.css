@@ -60,3 +60,6 @@ main{
   min-height: 100vh;
   padding: 80px 15px 10px 15px;
 }
+main h1{
+  line-height: 32pt
+}
