@@ -10,3 +10,7 @@
   src: url('../fonts/TatsamBengali.otf');
   font-family: Tatsam;
 }
+@font-face{
+  src: url('../fonts/TatsamBengaliNormal.otf');
+  font-family: Tatsam Normal;
+}
