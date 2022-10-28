@@ -30,4 +30,8 @@ nav .nav-links li{
  .menu-icon{
    display: inline-block
  }
+ .video{
+   width: 300px;
+   height: 300px;
+ }
 }

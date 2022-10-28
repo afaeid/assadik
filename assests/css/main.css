@@ -40,6 +40,7 @@ nav{
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 100;
 }
 nav .logo a{
   font-size: 30px;
@@ -66,4 +67,25 @@ main{
 main h1{
   font-size: 28px;
   line-height: 28px
+}
+.latest-vid-covr{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+.video{
+  width:467px;
+  height: 467px;
+  border-radius: 10px;
+  position: relative;
+  border: 1px solid black;
+  background: var(--semi-white-color);
+  z-index: 50;
+}
+.latest-vid-des{
+  text-align: justify;
+  margin: 10px 0;
 }
