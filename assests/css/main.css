@@ -8,6 +8,18 @@ a{
  color: #000;
  text-decoration: none
 }
+h1{
+  font-size: 28px;
+  line-height: 28px;
+}
+h2{
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+}
+h1, h2{
+  margin: 10px 0;
+}
 .icon{  
   cursor: pointer;
   padding: 10px;
@@ -64,10 +76,6 @@ main{
   min-height: 100vh;
   padding: 80px 15px 10px 15px;
 }
-main h1{
-  font-size: 28px;
-  line-height: 28px
-}
 .latest-vid-covr{
   width: 100%;
   display: flex;
@@ -86,7 +94,7 @@ main h1{
   z-index: 50;
 }
 .latest-vid-des{
-  text-align: justify;
+  text-align:left;
   margin: 10px 0;
   font-size: 18px;
   font-family: Tatsam Normal;
