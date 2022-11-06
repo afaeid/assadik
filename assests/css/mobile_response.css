@@ -36,5 +36,6 @@ nav .nav-links li{
  }
  .content-box{
    flex-basis: 100%;
+   height: 350px;
  }
 }
