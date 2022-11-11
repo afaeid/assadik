@@ -11,7 +11,12 @@
   height: 300px;
   border: 1px solid var(--semi-white-color);
   margin: 10px 0;
-  border-radius: 10px
+  border-radius: 10px;
+  transition:all 0.2s linear
+}
+.content-box:hover{
+  background: var(--active-bg-color);
+  transform: scale(1.02);
 }
 .content-img{
   width: 100%;
