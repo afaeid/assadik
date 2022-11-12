@@ -90,7 +90,9 @@ main{
   border-radius: 10px;
   position: relative;
   border: 1px solid black;
-  background: var(--semi-white-color);
+  background-image: url('/assests/icons/loader.svg');
+  background-position: center;
+  background-repeat: no-repeat;
   z-index: 50;
 }
 .latest-vid-des{
