@@ -28,7 +28,7 @@
 .content-img img{
   width: 90%;
   height: 90%;
-  pointer-events: none
+  /* pointer-events: none */
 }
 .content-title{
   text-align: center;
