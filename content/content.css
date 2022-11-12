@@ -16,7 +16,7 @@
 }
 .content-box:hover{
   background: var(--active-bg-color);
-  transform: scale(1.02);
+  transform: scale(0.98);
 }
 .content-img{
   width: 100%;
