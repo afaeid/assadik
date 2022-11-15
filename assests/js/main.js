@@ -3,7 +3,7 @@ function openMenu(){
   navBar.style.left = '0';
 }
 function closeMenu(){
-  navBar.style.left = '-50%'
+  navBar.style.left = '-100%'
 }
 var latestVid = document.querySelector('.latest_video');
 var latestVidDes = document.querySelector('.latest-vid-des');
