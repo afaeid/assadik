@@ -41,3 +41,34 @@
   padding: 15px;
   font-family: Tatsam Normal;
 }
+.content-cover{
+  width: 100%;
+  min-height: calc(100vh - 90px);
+  display: flex;
+  justify-content: space-between;
+}
+.content-cover div{
+  display: inline-block;
+}
+.content-cover .content_video{
+  flex-basis:467px;
+  height: 467px;
+  border-radius: 10px;
+  position: relative;
+  border: 1px solid var(--semi-white-color);
+  outline: none;
+  background-image: url('../icons/loader.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 50;
+}
+.content-cover .content-list-cover{
+  flex-basis: 45%;
+  height: calc(100vh -  90px);
+  background: red;
+}
+.content-cover .content-list-cover .content-list{
+  width: 98%;
+  height: 100%;
+  overflow: scroll
+}
