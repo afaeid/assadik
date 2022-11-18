@@ -46,6 +46,7 @@
   min-height: calc(100vh - 90px);
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .content-cover div{
   display: inline-block;
