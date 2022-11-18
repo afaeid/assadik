@@ -6,11 +6,15 @@
   justify-content: space-around;
   flex-wrap: wrap
 }
-.content-box{
+.content-box-cvr a{
+  flex-basis: 28%;
+  height: 300px;
+  margin: 10px 0;
+}
+.content-box-cvr .content-box{
   flex-basis: 28%;
   height: 300px;
   border: 1px solid var(--semi-white-color);
-  margin: 10px 0;
   border-radius: 10px;
   transition:all 0.2s linear
 }
