@@ -70,10 +70,13 @@
 .content-cover .content-list-cover{
   flex-basis: 45%;
   height: calc(100vh -  90px);
-  background: red;
+  border: 1px solid var(--semi-white-color);
+  border-radius: 5px;
+  padding: 10px;
 }
 .content-cover .content-list-cover .content-list{
   width: 98%;
   height: 100%;
-  overflow: scroll
+  overflow: scroll;
+  
 }
