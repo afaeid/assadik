@@ -28,14 +28,14 @@ contentLists.forEach((item,index) => {
  var videoSrc = item.dataset.videolink;
   item.addEventListener('click', ()=>{
  contentVideo.src = videoSrc;
-  item.style.background = 'red'
+  item.style.background = 'var(--active-bg-color)'
  removeActive(index);
   })
 })
 function removeActive(index1){
   contentLists.forEach((item, index2)=> {
  if(index1 != index2){
-   item.style.background = 'white'
+   item.style.background = '#fff'
  } 
   })
 }
