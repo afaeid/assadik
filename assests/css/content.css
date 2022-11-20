@@ -21,6 +21,7 @@
 .content-box:hover{
   background: var(--active-bg-color);
   transform: scale(0.98);
+  border: 1px solid var(--active-bg-color)
 }
 .content-img{
   width: 100%;
@@ -120,10 +121,10 @@
 #myUL  a:nth-child(1){
   background-color:var(--active-bg-color) ;
 }
-
+/*
 #myUL  a:hover:not(.header) {
-  background-color: var(--active-bg-color) /* Add a hover effect to all links, except for headers */
-}
+  background-color: var(--active-bg-color) /* Add a hover effect to all links, except for headers 
+}*/
 #myUL li h5{
   font-size: 18px;
 }
