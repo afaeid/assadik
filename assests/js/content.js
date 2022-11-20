@@ -17,3 +17,25 @@ function myFunction() {
     }
   }
 }
+
+var contentVideo = document.querySelector('.content_video');
+var firstVideo = document.querySelector('#myUL a');
+var contentLists = document.querySelectorAll('#myUL a');
+window.addEventListener('load',()=> {
+  contentVideo.src = firstVideo.dataset.videolink;
+})
+contentLists.forEach((item,index) => {
+ var videoSrc = item.dataset.videolink;
+  item.addEventListener('click', ()=>{
+ contentVideo.src = videoSrc;
+  item.style.background = 'red'
+ removeActive(index);
+  })
+})
+function removeActive(index1){
+  contentLists.forEach((item, index2)=> {
+ if(index1 != index2){
+   item.style.background = 'white'
+ } 
+  })
+}

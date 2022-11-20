@@ -109,5 +109,13 @@
 }
 
 #myUL  a:hover:not(.header) {
-  background-color: #eee; /* Add a hover effect to all links, except for headers */
+  background-color: var(--active-bg-color) /* Add a hover effect to all links, except for headers */
+}
+#myUL li h5{
+  font-size: 18px;
+}
+#myUL li p{
+  font-family: Tatsam Normal;
+  font-size:  16px;
+  color: var(--semi-black-color);
 }
