@@ -10,12 +10,12 @@ a{
  display: inline-block;
 }
 h1{
-  font-size: 28px;
-  line-height: 28px;
+  font-size: 30px;
+  line-height: 30px;
 }
 h2{
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 25px;
+  line-height: 25px;
   font-weight: 500;
 }
 h1, h2{
@@ -106,4 +106,9 @@ main{
   margin: 10px 0;
   font-size: 18px;
   font-family: Tatsam Normal;
+}
+p{
+  font-family: Tatsam Normal;
+  text-align: justify;
+  font-size: 20px
 }
