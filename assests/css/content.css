@@ -52,6 +52,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  
 }
 .content-cover div{
   display: inline-block;
@@ -67,6 +68,7 @@
   background-position: center;
   background-repeat: no-repeat;
   z-index: 50;
+  background-color: var(--white-color);
 }
 .content-cover .content-list-cover{
   flex-basis: 45%;

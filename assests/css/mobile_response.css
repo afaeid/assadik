@@ -53,6 +53,6 @@ nav .nav-links li{
  }
  .content-cover .content-list-cover{
    flex-basis: 100%;
-   margin: 10px 0;
+   margin: 10px;
  }
 }

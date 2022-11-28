@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: Tatsam;
 }
+html{
+  scroll-behavior: smooth;
+}
 a{
  color: #000;
  text-decoration: none;
@@ -79,6 +82,7 @@ main{
   width: 100%;
   min-height: 100vh;
   padding: 80px 15px 10px 15px;
+  position: relative;
 }
 .latest-vid-covr{
   width: 100%;
