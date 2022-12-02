@@ -32,8 +32,9 @@ h1, h2{
   justify-content: center;
   background: var(--icon-bg-color);
 }
-.icon:hover{
+.icon:active{
   background: var(--active-bg-color);
+  border-radius: 50%
 }
 .hover-rotate:hover{
   transform: rotate(180deg);
@@ -76,6 +77,7 @@ nav .nav-links li {
 }
 .menu-icon{
   display: none;
+  border-radius: 50%;
 }
 main{
   width: 100%;
